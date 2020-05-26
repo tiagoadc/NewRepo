@@ -7,7 +7,7 @@ namespace CalculadoraGIT.Controllers
     [ApiController]
     public class SomaController : Controller
     {
-        // POST: api/Soma
+        // POST: api/Somaersdfghfdfg
         [HttpPost]
         public Retorno Post([FromBody] Aritimetica obj)
         {
