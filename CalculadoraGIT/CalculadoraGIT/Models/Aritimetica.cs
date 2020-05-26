@@ -10,6 +10,7 @@ namespace CalculadoraGIT.Models
     {
         public decimal N1 { get; set; }
         public decimal N2 { get; set; }
+        public decimal N3 {get; set;}
 
         public decimal Somar()
         {
