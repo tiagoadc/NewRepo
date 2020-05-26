@@ -7,11 +7,11 @@ namespace CalculadoraGIT.Models
 {
     public class Retorno
     {
-        public decimal valor { get; set; }
+        public decimal Valor { get; set; }
 
         public Retorno(decimal valor)
         {
-            this.valor = valor;
+            this.Valor = valor;
         }
     }
 }

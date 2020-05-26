@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using CalculadoraGIT.Models;
+﻿using CalculadoraGIT.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CalculadoraGIT.Controllers
@@ -11,11 +7,11 @@ namespace CalculadoraGIT.Controllers
     [ApiController]
     public class SomaController : Controller
     {
-        // api/Soma
+        // POST: api/Soma
         [HttpPost]
         public Retorno Post([FromBody] Aritimetica obj)
         {
-            return new Retorno(obj.somar());
+            return new Retorno(obj.Somar());
         }
     }
 }
